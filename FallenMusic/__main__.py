@@ -26,7 +26,7 @@ import os
 
 from pyrogram import idle
 
-from FallenMusic import (
+from sonaMusic import (
     ASS_ID,
     ASS_NAME,
     ASS_USERNAME,
@@ -39,7 +39,7 @@ from FallenMusic import (
     app2,
     pytgcalls,
 )
-from FallenMusic.Modules import ALL_MODULES
+from sonaMusic.Modules import ALL_MODULES
 
 
 async def fallen_startup():
@@ -89,4 +89,4 @@ async def fallen_startup():
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(fallen_startup())
-    LOGGER.error("Fallen Music Bot Stopped.")
+    LOGGER.error("sona Music Bot Stopped.")
