@@ -12,22 +12,22 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [sᴏɴᴀ ✘ ᴍ�
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
-<a href="https://github.com/AnonymousX1025/FallenMusic/stargazers"><img src="https://img.shields.io/github/stars/AnonymousX1025/FallenMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/AnonymousX1025/FallenMusic/network/members"> <img src="https://img.shields.io/github/forks/AnonymousX1025/FallenMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/AnonymousX1025/FallenMusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/CuteBaccha/sona/stargazers"><img src="https://img.shields.io/github/stars/CuteBaccha/sona?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/AnonymousX1025/FallenMusic/network/members"> <img src="https://img.shields.io/github/forks/CuteBaccha/sona?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/CuteBaccha/sona/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/AnonymousX1025/FallenMusic/commits/AnonymousX1025"> <img src="https://img.shields.io/github/last-commit/AnonymousX1025/FallenMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/CuteBaccha/sona/commits/CuteBaccha/sona"><img src="https://img.shields.io/github/last-commit/CuteBaccha/aona?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 </p>
 
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
   <img src="https://telegra.ph/file/5081730e52145378eb3b8.jpg">
-</p>
+</p>to
 
 <p align="center">
-<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
+<b>𝗦𝗢𝗡𝗔 𝗠𝗨𝗦𝗜𝗖</b>
 </p>
 
 <h3 align="center">
@@ -41,7 +41,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [sᴏɴᴀ ✘ ᴍ�
 - <b> ᴠᴘs/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ </b>
 </h3></summary>
 
-- Get your [Necessary Variables](https://github.com/AnonymousX1025/FallenMusic/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/CuteBaccha/sona/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install required packages by :
@@ -51,7 +51,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [sᴏɴᴀ ✘ ᴍ�
 - Install node by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/AnonymousX1025/FallenMusic && cd FallenMusic`
+`git clone https://github.com/CuteBaccha/sona && cd sona`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
@@ -75,11 +75,11 @@ Press `Ctrl+b` and then `d`
 
 ━━━━━━━━━━━━━━━━━━━━
 <h3 align="center">
-    ─「 sᴜᴩᴩᴏʀᴛ 」─
+    ─「 ᴀɴsʜ ᴋᴀ ɢʀᴏᴜᴘ 」─
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/DevilsHeavenMF"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me ISHQ00_I"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
 <a href="https://telegram.me/FallenAssociation"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
@@ -91,10 +91,13 @@ Press `Ctrl+b` and then `d`
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/AnonymousX1025)  ғᴏʀ  [ғᴀʟʟᴇɴ ᴍᴜsɪᴄ](https://github.com/AnonymousX1025/FallenMusic) </b>
+- <b>[ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/CuteBaccha)  ғᴏʀ  [ғᴀʟʟᴇɴ ᴍᴜsɪᴄ](https://github.com/CuteBaccha/sona) </b>
 - <b>[ᴅᴀɴ](https://github.com/delivrance)  ғᴏʀ  [ᴘʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram) </b>
 - <b>[ʟᴀᴋʏ](https://github.com/Laky-64)  ғᴏʀ  [ᴘʏ-ᴛɢᴄᴀʟʟs](https://github.com/pytgcalls/pytgcalls) </b>
 
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/AnonymousX1025/FallenMusic/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ғᴀʟʟᴇɴ ✘ ᴍᴜsɪᴄ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
+<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/CuteBaccha/sona/graphs/contributors)𝐘𝐨𝐮 𝐭𝐡𝐢𝐧𝐤 𝐈 𝐝𝐨𝐧'𝐭 𝐥𝐨𝐯𝐞 𝐮𝐡𝐡🥺❤
+                    𝐁𝐮𝐭 
+      𝐈 𝐥𝐢𝐭𝐞𝐫𝐚𝐥𝐥𝐲 𝐬𝐭𝐚𝐫𝐭 𝐬𝐦𝐢𝐥𝐢𝐧𝐠 𝐚𝐭 𝐦𝐲 𝐩𝐡𝐨𝐧𝐞.....😊
+𝐖𝐡𝐞𝐧 𝐈 𝐠𝐞𝐭 𝐚 𝐭𝐞𝐱𝐭 𝐟𝐫𝐨𝐦 𝐮𝐡𝐡 <𝟑😩❤  🖤 </b>
 
 ━━━━━━━━━━━━━━━━━━━━
