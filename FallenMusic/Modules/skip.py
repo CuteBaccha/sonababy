@@ -41,7 +41,7 @@ async def skip_str(_, message: Message):
             await _clear_(message.chat.id)
             await pytgcalls.leave_group_call(message.chat.id)
             await message.reply_text(
-                text=f"➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🥺\n│ \n└ʙʏ : {message.from_user.mention} 🥀\n\n**» ɴᴏ ᴍᴏʀᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ɪɴ** {message.chat.title}, **ʟᴇᴀᴠɪɴɢ ᴠɪᴅᴇᴏᴄʜᴀᴛ.**",
+                text=f"➻ ɢᴀɴᴀ ᴋʏᴜ ʙᴀɴᴅ ᴋɪʏᴀ ʙᴄ🥺\n│ \n└ʙʏ : {message.from_user.mention} 🥀\n\n**» ɴᴏ ᴍᴏʀᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ɪɴ** {message.chat.title}, **ʟᴀᴅᴋɪʏᴀ ᴅᴍ ᴋʀᴏ ᴠᴄ ᴄʜᴏᴅᴏ.**",
                 reply_markup=close_key,
             )
         except:
@@ -66,7 +66,7 @@ async def skip_str(_, message: Message):
             return await pytgcalls.leave_group_call(message.chat.id)
 
         await message.reply_text(
-            text=f"➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🥺\n│ \n└ʙʏ : {message.from_user.mention} 🥀",
+            text=f"➻ ᴊᴀɴᴀ ʙᴇᴇ 🥺\n│ \n└ʙʏ : {message.from_user.mention} 🥀",
             reply_markup=close_key,
         )
         img = await gen_thumb(videoid, user_id)
