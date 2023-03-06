@@ -178,8 +178,8 @@ async def play(_, message: Message):
         file_path = audio_dl(url)
     else:
         if len(message.command) < 2:
-            return await fallen.edit_text("» ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴɴᴀ ᴘʟᴀʏ ʙᴀʙʏ ?")
-        await fallen.edit_text("🔎")
+            return await fallen.edit_text("» ʙsᴅᴋ ɢᴀɴᴀ ᴛᴏ sʜɪɪ sᴇ ʟɢᴀ ʟᴀᴅᴋɪʏᴏ ᴋᴏ ʟᴏᴠᴇ ʏᴏᴜ ?")
+        await fallen.edit_text("🥺")
         query = message.text.split(None, 1)[1]
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -195,7 +195,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             LOGGER.error(str(e))
-            return await fallen.edit("» ғᴀɪʟᴇᴅ ᴛᴏ ᴘʀᴏᴄᴇss ᴏ̨ᴜᴇʀʏ, ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɢᴀɪɴ...")
+            return await fallen.edit("» sᴏɴᴀᴘ ᴛᴏ ᴘʀᴏᴄᴇss ᴏ̨ᴜᴇʀʏ, ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɢᴀɪɴ...")
 
         if (dur / 60) > DURATION_LIMIT:
             return await fallen.edit(
