@@ -41,7 +41,7 @@ async def skip_str(_, message: Message):
             await _clear_(message.chat.id)
             await pytgcalls.leave_group_call(message.chat.id)
             await message.reply_text(
-                text=f"➻ ɢᴀɴᴀ ᴋʏᴜ ʙᴀɴᴅ ᴋɪʏᴀ ʙᴄ🥺\n│ \n└ʙʏ : {message.from_user.mention} 🥀\n\n**» ɴᴏ ᴍᴏʀᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ɪɴ** {message.chat.title}, **ʟᴀᴅᴋɪʏᴀ ᴅᴍ ᴋʀᴏ ᴠᴄ ᴄʜᴏᴅᴏ.**",
+                text=f"➻ 𝕘𝕒𝕟𝕒 𝕜𝕪𝕦 𝕓𝕒𝕟𝕕 𝕜𝕚𝕪𝕒 𝕓𝕔🥺\n│ \n└ʙʏ : {message.from_user.mention} 🥀\n\n**» ɴᴏ ᴍᴏʀᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ɪɴ** {message.chat.title}, **𝕝𝕒𝕕𝕜𝕚𝕪𝕒 𝕝𝕠𝕧𝕖 𝕪𝕠𝕦 .**",
                 reply_markup=close_key,
             )
         except:
