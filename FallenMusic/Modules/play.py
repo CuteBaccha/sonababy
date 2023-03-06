@@ -178,7 +178,7 @@ async def play(_, message: Message):
         file_path = audio_dl(url)
     else:
         if len(message.command) < 2:
-            return await fallen.edit_text("» ʙsᴅᴋ ɢᴀɴᴀ ᴛᴏ sʜɪɪ sᴇ ʟɢᴀ ʟᴀᴅᴋɪʏᴏ ᴋᴏ ʟᴏᴠᴇ ʏᴏᴜ ?")
+            return await fallen.edit_text("» ᴍᴇʀᴇ ɴᴀᴀᴍ sᴏɴᴀ ʜᴀɪ❤︎?")
         await fallen.edit_text("🥺")
         query = message.text.split(None, 1)[1]
         try:
@@ -195,11 +195,11 @@ async def play(_, message: Message):
 
         except Exception as e:
             LOGGER.error(str(e))
-            return await fallen.edit("» sᴏɴᴀᴘ ᴛᴏ ᴘʀᴏᴄᴇss ᴏ̨ᴜᴇʀʏ, ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɢᴀɪɴ...")
+            return await fallen.edit("» 𝕓𝕠𝕥 𝕜𝕒 𝕤𝕒𝕥𝕙 𝕓𝕒𝕜𝕔𝕙𝕠𝕕𝕚 𝕟𝕙𝕚 𝕜𝕣𝕠🤐...")
 
         if (dur / 60) > DURATION_LIMIT:
             return await fallen.edit(
-                f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ ᴏɴ {BOT_NAME}."
+                f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} 🙄𝕓𝕔 𝕡𝕦𝕣𝕖 𝕗𝕚𝕝𝕞 𝕙𝕖 𝕕𝕖𝕜𝕟𝕚 𝕙𝕒𝕚🙄 {BOT_NAME}."
             )
         file_path = audio_dl(url)
 
@@ -221,7 +221,7 @@ async def play(_, message: Message):
         qimg = await gen_qthumb(videoid, message.from_user.id)
         await message.reply_photo(
             photo=qimg,
-            caption=f"**➻ ᴀᴅᴅᴇᴅ ᴛᴏ ᴏ̨ᴜᴇᴜᴇ ᴀᴛ {position}**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {ruser}",
+            caption=f"**➻ 𝕒𝕕𝕕𝕖𝕕 𝕥𝕠 𝕢𝕦𝕖𝕦𝕖 𝕒𝕥 {position}**\n\n‣ **𝕥𝕚𝕥𝕝𝕖 :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **𝕕𝕦𝕣𝕒𝕥𝕚𝕠𝕟 :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **𝕣𝕖𝕢𝕦𝕖𝕤𝕥𝕞𝕖𝕕 𝕓𝕪 :** {ruser}",
             reply_markup=buttons,
         )
     else:
@@ -239,7 +239,7 @@ async def play(_, message: Message):
             )
         except TelegramServerError:
             return await fallen.edit_text(
-                "» ᴛᴇʟᴇɢʀᴀᴍ ɪs ʜᴀᴠɪɴɢ sᴏᴍᴇ ɪɴᴛᴇʀɴᴀʟ ᴘʀᴏʙʟᴇᴍs, ᴘʟᴇᴀsᴇ ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ."
+                "» 𝕓𝕠𝕥 𝕞𝕖 𝕜𝕦𝕤𝕙 𝕡𝕣𝕠𝕓𝕝𝕞 𝕙𝕠𝕘𝕪𝕚 𝕣𝕖𝕤𝕥𝕒𝕣𝕥 𝕜𝕣𝕠 𝕓𝕒𝕓𝕪."
             )
         except UnMuteNeeded:
             return await fallen.edit_text(
@@ -251,7 +251,7 @@ async def play(_, message: Message):
         await add_active_chat(message.chat.id)
         await message.reply_photo(
             photo=imgt,
-            caption=f"**➻ sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {ruser}",
+            caption=f"**➻ sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n‣ **𝕥𝕚𝕥𝕝𝕖 :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **𝕕𝕦𝕣𝕒𝕥𝕚𝕠𝕟 :** `{duration}` 𝕞𝕚𝕟\n‣ **𝕣𝕖𝕢𝕖𝕤𝕥𝕖𝕕 𝕓𝕪 :** {ruser}",
             reply_markup=buttons,
         )
 
