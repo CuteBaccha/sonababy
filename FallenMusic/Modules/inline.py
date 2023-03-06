@@ -39,8 +39,8 @@ async def inline_query_handler(_, query):
             await app.answer_inline_query(
                 query.id,
                 results=answers,
-                switch_pm_text="ᴛʏᴘᴇ sᴏᴍᴇᴛʜɪɴɢ ᴛᴏ sᴇᴀʀᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ...",
-                cache_time=10,
+                switch_pm_text="𝕥𝕪𝕡𝕖 𝕤𝕠𝕞𝕖𝕥𝕚𝕙𝕚𝕟𝕘 𝕥𝕠 𝕤𝕖𝕒𝕣𝕔𝕙 𝕠𝕟 𝕪𝕠𝕦𝕥𝕦𝕓𝕖...",
+                cache_time=1
             )
         except:
             return
@@ -61,21 +61,21 @@ async def inline_query_handler(_, query):
                 [
                     [
                         InlineKeyboardButton(
-                            text="• ʏᴏᴜᴛᴜʙᴇ •",
+                            text="• 𝕪𝕠𝕦𝕥𝕦𝕓𝕖 •",
                             url=link,
                         )
                     ],
                 ]
             )
             searched_text = f"""
-✨ **ᴛɪᴛʟᴇ :** [{title}]({link})
+✨ **𝕥𝕚𝕥𝕝𝕖:** [{title}]({link})
 
-⏳ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}`ᴍɪɴᴜᴛᴇs
-👀 **ᴠɪᴇᴡs :** `{views}`
-⏰ **ᴩᴜʙʟɪsʜᴇᴅ ᴏɴ :** {published}
-🎥 **ᴄʜᴀɴɴᴇʟ :** [{channel}]({channellink})
+⏳ **𝕕𝕦𝕣𝕒𝕒𝕥𝕚𝕠𝕟 :** `{duration}`ᴍɪɴᴜᴛᴇs
+👀 **𝕧𝕚𝕖𝕨𝕤 :** `{views}`
+⏰ **𝕡𝕦𝕓𝕝𝕚𝕤𝕙𝕖𝕕 𝕠𝕟 :** {published}
+🎥 **𝕔𝕙𝕒𝕟𝕟𝕖𝕝 :** [{channel}]({channellink})
 
-<u>💖 **sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {BOT_NAME}**</u>"""
+<u>💖 **𝕤𝕖𝕒𝕣𝕔𝕙 𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 {BOT_NAME}**</u>"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
