@@ -45,11 +45,11 @@ buttons = InlineKeyboardMarkup(
 pm_buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="💥𝕒𝕡𝕟𝕒 𝕡𝕪𝕒𝕣𝕖 𝕤𝕖 𝕘𝕣𝕠𝕦𝕡 𝕞𝕖 𝕒𝕕𝕕 𝕜𝕣 𝕝𝕠💥",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="💥𝕓𝕙𝕒𝕦𝕥 𝕔𝕙𝕖𝕖𝕘𝕖 𝕙𝕒𝕚 𝕕𝕖𝕜𝕠💥", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text="🥰 𝔹𝔸𝔹𝕐 𝕁𝕆𝕀ℕ 𝕂ℝ 𝕃𝕆 🥰", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text="💞 𝕀𝕊𝕂𝕆 𝔹ℍ𝕀 𝕂ℝ 𝕃𝕆 ℕ𝔸 💞", url=config.SUPPORT_CHAT),
