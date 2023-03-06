@@ -46,21 +46,21 @@ async def ping_fallen(_, message: Message):
     uptime = get_readable_time((upt))
 
     await hmm.edit_text(
-        f"""➻ ᴩᴏɴɢ : `{resp}ᴍs`
+        f"""➻ 𝕡𝕚𝕟𝕘 : `{resp}ᴍs`
 
 <b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>
 
-๏ **ᴜᴩᴛɪᴍᴇ :** {uptime}
-๏ **ʀᴀᴍ :** {mem}
-๏ **ᴄᴩᴜ :** {cpu}
-๏ **ᴅɪsᴋ :** {disk}""",
+๏ **𝕦𝕡𝕥𝕚𝕞𝕖 :** {uptime}
+๏ **ℝ𝕒𝕞 :** {mem}
+๏ **𝕔𝕡𝕦 :** {cpu}
+๏ **𝕕𝕚𝕤𝕜 :** {disk}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❄ sᴜᴘᴘᴏʀᴛ ❄", url=config.SUPPORT_CHAT),
+                    InlineKeyboardButton("❄ 𝕞𝕦𝕤𝕚𝕔 𝕘𝕣𝕠𝕦𝕡 ❄", url=config.SUPPORT_CHAT),
                     InlineKeyboardButton(
-                        "✨ sᴏᴜʀᴄᴇ ✨",
-                        url="https://t.me/REPO_I",
+                        "✨ 𝕣𝕖𝕡𝕠 ✨",
+                        url="https://github.com/CuteBaccha/sonababy",
                     ),
                 ],
             ]
