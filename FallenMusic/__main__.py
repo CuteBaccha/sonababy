@@ -39,7 +39,7 @@ from sonaMusic import (
     app2,
     pytgcalls,
 )
-from sonaMusic.Modules import ALL_MODULES
+from FallenMusic.Modules import ALL_MODULES
 
 
 async def fallen_startup():
