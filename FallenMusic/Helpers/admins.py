@@ -41,7 +41,7 @@ def admin_check(func: Callable) -> Callable:
         check = await app.get_chat_member(message.chat.id, message.from_user.id)
         if check.status not in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
             return await message.reply_text(
-                "» ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ʙᴀʙʏ, ᴘʟᴇᴀsᴇ sᴛᴀʏ ɪɴ ʏᴏᴜʀ ʟɪᴍɪᴛs."
+                "» 𝕥𝕦𝕞 𝕒𝕕𝕞𝕚𝕟 𝕟𝕙𝕚 𝕙𝕠 𝕟𝕒𝕝𝕝𝕖 𝕙𝕠, 𝕒𝕓 𝕒𝕡𝕟𝕚 𝕒𝕦𝕜𝕒𝕥 𝕕𝕖𝕜𝕒𝕣 𝕓𝕠𝕥 𝕔𝕙𝕒𝕝𝕠."
             )
 
         admin = (
