@@ -26,7 +26,7 @@ import config
 from FallenMusic import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="✯  𝗰𝗹𝗼𝘀𝗲 ✯", callback_data="close")]]
+    [[InlineKeyboardButton(text="✯💥𝗰𝗹𝗼𝘀𝗲💥✯", callback_data="close")]]
 )
 
 
