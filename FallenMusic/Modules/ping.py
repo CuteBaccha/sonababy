@@ -32,7 +32,7 @@ from FallenMusic import BOT_NAME, StartTime, app
 from FallenMusic.Helpers import get_readable_time
 
 
-@app.on_message(filters.command("ping"))
+@app.on_message(filters.command("💥𝗽𝗶𝗻𝗴💥"))
 async def ping_fallen(_, message: Message):
     hmm = await message.reply_photo(
         photo=config.PING_IMG, caption=f"{BOT_NAME} ɪs ᴘɪɴɢɪɴɢ..."
@@ -46,21 +46,21 @@ async def ping_fallen(_, message: Message):
     uptime = get_readable_time((upt))
 
     await hmm.edit_text(
-        f"""➻ 𝕡𝕚𝕟𝕘 : `{resp}ᴍs`
+        f"""➻ 💥𝗽𝗶𝗻𝗴💥 : `{resp}ᴍs`
 
 <b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>
 
-๏ **𝕦𝕡𝕥𝕚𝕞𝕖 :** {uptime}
-๏ **ℝ𝕒𝕞 :** {mem}
-๏ **𝕔𝕡𝕦 :** {cpu}
-๏ **𝕕𝕚𝕤𝕜 :** {disk}""",
+๏ **💥𝘂𝗽𝘁𝗶𝗺𝗲💥 :** {uptime}
+๏ **💥𝗥𝗮𝗺💥 :** {mem}
+๏ **💥𝗰𝗽𝘂💥 :** {cpu}
+๏ **💥𝗱𝗶𝘀𝗸💥 :** {disk}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❄ 𝕞𝕦𝕤𝕚𝕔 𝕘𝕣𝕠𝕦𝕡 ❄", url=config.SUPPORT_CHAT),
+                    InlineKeyboardButton("💥𝗮𝗻𝘀𝗵 𝗸𝗮 𝗴𝗿𝗼𝘂𝗽💥", url=config.SUPPORT_CHAT),
                     InlineKeyboardButton(
-                        "✨ 𝕣𝕖𝕡𝕠 ✨",
-                        url="https://github.com/CuteBaccha/sonababy",
+                        "💥𝗿𝗲𝗽𝗼+𝗷𝗼𝗶𝗻💥",
+                        url="https://t.me/REPO_I",
                     ),
                 ],
             ]
