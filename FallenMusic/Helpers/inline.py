@@ -26,7 +26,7 @@ import config
 from FallenMusic import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
+    [[InlineKeyboardButton(text="✯  𝗰𝗹𝗼𝘀𝗲 ✯", callback_data="close")]]
 )
 
 
@@ -45,20 +45,20 @@ buttons = InlineKeyboardMarkup(
 pm_buttons = [
     [
         InlineKeyboardButton(
-            text="💥𝕒𝕡𝕟𝕒 𝕡𝕪𝕒𝕣𝕖 𝕤𝕖 𝕘𝕣𝕠𝕦𝕡 𝕞𝕖 𝕒𝕕𝕕 𝕜𝕣 𝕝𝕠💥",
+            text="💥𝗮𝗱𝗱 𝗸𝗿 𝗹𝗼 𝗯𝗮𝗯𝘆💥",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="💥𝕓𝕙𝕒𝕦𝕥 𝕔𝕙𝕖𝕖𝕘𝕖 𝕙𝕒𝕚 𝕕𝕖𝕜𝕠💥", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="💥𝗰𝗼𝗺𝗺𝗮𝗻𝗱 𝗵𝗮𝗶 𝗱𝗲𝗸𝗼💥", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="🥰 𝔹𝔸𝔹𝕐 𝕁𝕆𝕀ℕ 𝕂ℝ 𝕃𝕆 🥰", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="💞 𝕀𝕊𝕂𝕆 𝔹ℍ𝕀 𝕂ℝ 𝕃𝕆 ℕ𝔸 💞", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="💥 𝗯𝗮𝗯𝘆 𝗷𝗼𝗶𝗻 𝗸𝗿𝗹𝗼 💥", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="💥 𝗶𝘀𝗸𝗼 𝗯𝗵𝗶 𝗸𝗿 𝗹𝗼 𝗻𝗮💥", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="🔷 𝕃𝔼 𝕃𝕆𝕆 🔷", url="https://github.com/CuteBaccha/sonababy"
+            text="💥𝗿𝗲𝗽𝗼 𝗰𝗵𝗮𝗶𝘆𝗮💥", url="https://t.me/REPO_I"
         ),
-        InlineKeyboardButton(text="💥 𝕃𝔸𝔻𝕂𝕀𝕐𝔸 𝕂𝔸 ℂℝ𝕌𝕊ℍ 💥", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="💥𝗼𝘄𝗻𝗲𝗿 𝗵𝘂 𝗺𝗲💥", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -66,19 +66,19 @@ pm_buttons = [
 gp_buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="💥𝗯𝗼𝘁 𝗮𝗱𝗱 𝗸𝗿 𝗹𝗼💥",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="🥰 𝔹𝔸𝔹𝕐 𝕁𝕆𝕀ℕ 𝕂ℝ 𝕃𝕆 🥰", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="💞 𝕀𝕊𝕂𝕆 𝔹ℍ𝕀 𝕂ℝ 𝕃𝕆 ℕ𝔸 💞", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="💥 𝗯𝗮𝗯𝘆 𝗷𝗼𝗶𝗻 𝗸𝗿𝗹𝗼💥", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="💥𝘆𝗲 𝗯𝗵𝗶 𝗸𝗿𝗹𝗼 𝗷𝗼𝗶𝗻💥", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
             text="🔷 𝕃𝔼 𝕃𝕆𝕆 🔷", url="https://github.com/CuteBaccha/sonababy"
         ),
-        InlineKeyboardButton(text="💥 𝕃𝔸𝔻𝕂𝕀𝕐𝔸 𝕂𝔸 ℂℝ𝕌𝕊ℍ 💥", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="💥𝗴𝗶𝗿𝗹 𝗰𝗿𝘂𝘀𝗵💥", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -86,25 +86,25 @@ gp_buttons = [
 helpmenu = [
     [
         InlineKeyboardButton(
-            text="ᴇᴠᴇʀʏᴏɴᴇ",
+            text="💥𝘀𝗼𝗻𝗮 𝗺𝘂𝘀𝗶𝗰💥",
             callback_data="fallen_cb help",
         )
     ],
     [
-        InlineKeyboardButton(text="💥 𝕃𝔸𝔻𝕂𝕀𝕐𝔸 𝕂𝔸 ℂℝ𝕌𝕊ℍ 💥", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="💥 𝕃𝔸𝔻𝕂𝕀𝕐𝔸 𝕂𝔸 ℂℝ𝕌𝕊ℍ 💥", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="💥𝘀𝗮𝘀𝘁𝗮 𝗼𝘄𝗻𝗲𝗿💥", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="💥𝗿𝗲𝗮𝗹 𝗼𝘄𝗻𝗲𝗿💥", callback_data="fallen_cb owner"),
     ],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_home"),
-        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+        InlineKeyboardButton(text="💥𝗯𝗮𝗰𝗸💥", callback_data="fallen_home"),
+        InlineKeyboardButton(text="💥𝗰𝗹𝗼𝘀𝗲💥", callback_data="close"),
     ],
 ]
 
 
 help_back = [
-    [InlineKeyboardButton(text="🥰 𝔹𝔸𝔹𝕐 𝕁𝕆𝕀ℕ 𝕂ℝ 𝕃𝕆 🥰", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="💥𝗷𝗼𝗶𝗻 𝗸𝗿 𝗹𝗼 𝗯𝗮𝗯𝘆💥", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_help"),
-        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+        InlineKeyboardButton(text="💥𝗯𝗮𝗰𝗸💥", callback_data="fallen_help"),
+        InlineKeyboardButton(text="💥𝗰𝗹𝗼𝘀𝗲💥", callback_data="close"),
     ],
 ]
