@@ -221,8 +221,8 @@ async def play(_, message: Message):
         qimg = await gen_qthumb(videoid, message.from_user.id)
         await message.reply_photo(
             photo=qimg,
-            caption=f"**➻ 𝕒𝕕𝕕𝕖𝕕 𝕥𝕠 𝕢𝕦𝕖𝕦𝕖 𝕒𝕥 {position}**\n\n‣ **𝕥𝕚𝕥𝕝𝕖 :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **𝕕𝕦𝕣𝕒𝕥𝕚𝕠𝕟 :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **𝕣𝕖𝕢𝕦𝕖𝕤𝕥𝕞𝕖𝕕 𝕓𝕪 :** {ruser}",
-            reply_markup=buttons,
+            caption=f"**➻ 𝗮𝗱𝗱𝗲𝗱 𝘁𝗼 𝘀𝗼𝗻𝗴 {position}**\n\n‣ **𝘀𝗼𝗻𝗴 𝗻𝗮𝗺𝗲  :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **𝕕𝕦𝕣𝕒𝕥𝕚𝕠𝕟 :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **𝕣𝕖𝕢𝕦𝕖𝕤𝕥𝕞𝕖𝕕 𝕓𝕪 :** {ruser}",
+            reply_markup=button,
         )
     else:
         stream = AudioPiped(file_path, audio_parameters=HighQualityAudio())
@@ -239,7 +239,7 @@ async def play(_, message: Message):
             )
         except TelegramServerError:
             return await fallen.edit_text(
-                "» 𝕓𝕠𝕥 𝕞𝕖 𝕜𝕦𝕤𝕙 𝕡𝕣𝕠𝕓𝕝𝕞 𝕙𝕠𝕘𝕪𝕚 𝕣𝕖𝕤𝕥𝕒𝕣𝕥 𝕜𝕣𝕠 𝕓𝕒𝕓𝕪."
+                "» 𝗯𝗼𝘁 𝗺𝗲 𝗸𝘂𝘀𝗵 𝗽𝗿𝗼𝗯𝗹𝗲𝗺 𝗵𝗼𝗴𝘆𝗶 𝗿𝗲𝘀𝘁𝗮𝗿𝘁𝗸𝗿𝗼 𝗷𝗮𝗮𝗻."
             )
         except UnMuteNeeded:
             return await fallen.edit_text(
@@ -251,7 +251,7 @@ async def play(_, message: Message):
         await add_active_chat(message.chat.id)
         await message.reply_photo(
             photo=imgt,
-            caption=f"**➻ sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n‣ **𝕥𝕚𝕥𝕝𝕖 :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **𝕕𝕦𝕣𝕒𝕥𝕚𝕠𝕟 :** `{duration}` 𝕞𝕚𝕟\n‣ **𝕣𝕖𝕢𝕖𝕤𝕥𝕖𝕕 𝕓𝕪 :** {ruser}",
+            caption=f"**➻ sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n‣ **𝘀𝗼𝗻𝗴 𝗻𝗮𝗺𝗲 :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **𝕕𝕦𝕣𝕒𝕥𝕚𝕠𝕟 :** `{duration}` 𝕞𝕚𝕟\n‣ **𝕣𝕖𝕢𝕖𝕤𝕥𝕖𝕕 𝕓𝕪 :** {ruser}",
             reply_markup=buttons,
         )
 
